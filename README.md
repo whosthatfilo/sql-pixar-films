@@ -4,7 +4,7 @@ Hi All!
 I've created this free Blog: [**Pixar Film Data Warehouse Project**](https://medium.com/@chavez.kris3/pixar-film-data-warehouse-project-d5f8699ef9df) to through the Data Warehouse process with clear explanation on the <br /><br />
 _**"What, Why and How?"**_ <br /><br />
 
-Please do not hesitate to add your comments within the blog on suggestions/things I can improve on. <br /><br />
+Feel free to check this out! <br /><br />
 
 **Sample images:**
 
