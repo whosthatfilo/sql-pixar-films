@@ -1,15 +1,10 @@
 # sql-pixar-films
 Hi All! 
 
-I've created this blog (link below) to through the Data Warehouse process with clear explanation on the:
-https://medium.com/@chavez.kris3/pixar-film-data-warehouse-project-d5f8699ef9df 
+I've created this free Blog: [**Pixar Film Data Warehouse Project**](https://medium.com/@chavez.kris3/pixar-film-data-warehouse-project-d5f8699ef9df) to through the Data Warehouse process with clear explanation on the <br /><br />
+_**"What, Why and How?"**_ <br /><br />
 
-_**"What, Why and How?"**_
-
-On how to setup your very own Data Warehouse to the analyze Pixar Film dataset.
-
-
-
+Please do not hesitate to add your comments within the blog on suggestions/things I can improve on. <br /><br />
 
 **Sample images:**
 
