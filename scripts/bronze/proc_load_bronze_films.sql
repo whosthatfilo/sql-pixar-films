@@ -17,6 +17,17 @@ Usage Example:
 ===============================================================================
 */
 
+-- Execute Stored Procedure
+EXECUTE bronze.load_bronze;
+
+
+
+-- Create Stored Procedure
+CREATE OR ALTER PROCEDURE bronze.load_bronze AS
+BEGIN
+
+
+-- bronze.academy
 TRUNCATE TABLE bronze.academy;
 BULK INSERT bronze.academy
 FROM 'C:\Users\chavezk\Desktop\SQL\films-dataset\dataset\academy.csv'
@@ -27,6 +38,7 @@ WITH (
 );
 
 
+-- bronze.box_office
 TRUNCATE TABLE bronze.box_office;
 BULK INSERT bronze.box_office
 FROM 'C:\Users\chavezk\Desktop\SQL\films-dataset\dataset\box_office.csv'
@@ -37,6 +49,7 @@ WITH (
 );
 
 
+-- bronze.genres
 TRUNCATE TABLE bronze.genres;
 BULK INSERT bronze.genres
 FROM 'C:\Users\chavezk\Desktop\SQL\films-dataset\dataset\genres.csv'
@@ -47,6 +60,7 @@ WITH (
 );
 
 
+-- bronze.pixar_films
 TRUNCATE TABLE bronze.pixar_films;
 BULK INSERT bronze.pixar_films
 FROM 'C:\Users\chavezk\Desktop\SQL\films-dataset\dataset\pixar_films.csv'
@@ -57,6 +71,7 @@ WITH (
 );
 
 
+-- bronze.pixar_people
 TRUNCATE TABLE bronze.pixar_people;
 BULK INSERT bronze.pixar_people
 FROM 'C:\Users\chavezk\Desktop\SQL\films-dataset\dataset\pixar_people.csv'
@@ -67,6 +82,7 @@ WITH (
 );
 
 
+-- pixar.public_response
 TRUNCATE TABLE bronze.public_response;
 BULK INSERT bronze.public_response
 FROM 'C:\Users\chavezk\Desktop\SQL\films-dataset\dataset\public_response.csv'
@@ -75,3 +91,5 @@ WITH (
 	FORMAT = 'CSV',
 	TABLOCK
 );
+
+END
